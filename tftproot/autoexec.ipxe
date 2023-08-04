@@ -1,0 +1,5 @@
+#!ipxe
+set base http://httpd.local
+dhcp
+dhcp
+chain ${base}/${hostname}
